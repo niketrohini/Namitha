@@ -1,0 +1,106 @@
+/*
+  Simple, Attractive CSS for Namitha's Page
+*/
+
+/* 1. Global Reset & Font */
+body {
+    font-family: 'Poppins', sans-serif; /* The font imported in HTML */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f6f9; /* Light, soft gray background */
+    color: #333; /* Dark text for good contrast */
+    line-height: 1.6;
+}
+
+/* 2. Layout Container */
+.container {
+    max-width: 800px; /* Max width for readability */
+    margin: 40px auto; /* Center the container horizontally, add top/bottom spacing */
+    padding: 30px;
+    background-color: #ffffff; /* White content box */
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08); /* Subtle shadow for depth */
+    text-align: center; /* Center the main content */
+}
+
+/* 3. Header & Avatar */
+header {
+    margin-bottom: 30px;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    background-color: #ff9a8d; /* A soft, warm color (like a peachy pink) */
+    color: #fff;
+    border-radius: 50%; /* Makes it a circle */
+    margin: 0 auto; /* Center the circle */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 48px;
+    font-weight: 600;
+    border: 5px solid #ffbea8; /* Lighter border for contrast */
+}
+
+/* 4. Content Text */
+h1 {
+    color: #4c4a8a; /* A calming, deep indigo color */
+    font-weight: 600;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.intro-text {
+    font-size: 1.1em;
+    margin: 20px 0 40px 0;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* 5. Links Section */
+.links {
+    padding: 20px 0;
+    border-top: 1px solid #eee;
+    margin-top: 30px;
+}
+
+.links h2 {
+    color: #333;
+    font-size: 1.3em;
+    margin-bottom: 15px;
+}
+
+.links ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center the link items */
+    gap: 20px; /* Space between links */
+}
+
+.links a {
+    text-decoration: none; /* Remove underline */
+    color: #4c4a8a; /* Match the H1 color */
+    background-color: #e0e7ff; /* Light background for the link button */
+    padding: 10px 15px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    font-weight: 500;
+    display: block;
+}
+
+.links a:hover {
+    background-color: #c9d2f7; /* Darker background on hover */
+    color: #333;
+}
+
+/* 6. Footer */
+footer {
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid #eee;
+    font-size: 0.9em;
+    color: #777;
+}
